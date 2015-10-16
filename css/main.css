@@ -18,23 +18,13 @@ html, body {
 }
 
 .row:nth-child(even) {
-	/*background: rgb(0,43,54);*/
 	background: rgb(8,8,8);
 	color: rgb(245, 245, 245);
 }
 .row:nth-child(odd) {
-	/*background: rgb(7,54,66);*/
 	background: rgb(16,16,16);
 	color: rgb(235, 235, 235);
 }
-
-/*
-.row:nth-child(4) {
-	background: rgb(238,232,213);
-}
-.row:nth-child(5) {
-	background: rgb(253,246,227);
-}*/
 
 #page {
 	margin: 0;
@@ -55,6 +45,10 @@ html, body {
 	display: flex;
     justify-content: center;
     align-items: center;
+}
+
+#images {
+	margin-left: 15px;
 }
 
 #header {

@@ -1,0 +1,21 @@
+.justified-gallery>a {
+    position: absolute;
+    display: inline-block;
+    overflow: hidden;
+}
+
+.justified-gallery>a>img {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    margin: 0;
+    padding: 0;
+    border: 0;
+    vertical-align: middle;
+    box-sizing: border-box;
+}
+
+#cboxNext, #cboxPrevious, #cboxClose {visibility: hidden !important;}
+a{outline:none !important;}
+a img{outline:none !important;}
+img{border:none !important;}
